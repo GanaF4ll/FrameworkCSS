@@ -8,7 +8,13 @@
 body {
     font-family: bison-bold;
     font-weight: bold;
+    height: 100vh;
+    overflow: auto;
+}
 
+.big-container {
+  height: 90%;
+  /* autres styles */
 }
 .left-container {
     background-color: var(--main-color);
@@ -34,17 +40,13 @@ body {
     border: solid 2px black;
     border-radius: 3px;
     box-shadow: -3px 3px 0px var(--main-color);
-    /* height: 400px; */
+    height: 400px;
     box-sizing: border-box;
   }
   
   #avatar {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: fill;
-    box-sizing: border-box;
+    height: 395px;
+    width: 800px;
   }
 
   .progress-bar {
