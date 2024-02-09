@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 2px black;
 }
 
 
@@ -33,7 +34,9 @@ body {
   }
 
 .right-container {
-
+border-top: solid 2px black;
+border-right: solid 2px black;
+border-bottom: solid 2px black;
 }
 
 #Circle {
@@ -41,3 +44,13 @@ body {
     border-radius: 180px;
     box-shadow: -3px 3px 0px black;
 }
+
+.image-container {
+    position: relative;
+  }
+  
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
