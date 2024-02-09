@@ -1,5 +1,5 @@
 :root {
-    --main-pink: #ff99cc;
+    --main-color: #ff99cc;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 
 }
 .left-container {
-    background-color: var(--main-pink);
+    background-color: var(--main-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,17 +24,17 @@ body {
   .citation-box {
     border: solid 2px black;
     border-radius: 3px;
-    box-shadow: -3px 3px 0px var(--main-pink);
+    box-shadow: -3px 3px 0px var(--main-color);
   }
   .avatar-box {
     border: solid 2px black;
     border-radius: 3px;
-    box-shadow: -3px 3px 0px var(--main-pink);
+    box-shadow: -3px 3px 0px var(--main-color);
 
   }
 
   .progress-bar {
-    background-color: var(--main-pink);
+    background-color: var(--main-color);
     box-shadow: -3px 3px 0px black;
   }
 
@@ -46,8 +46,8 @@ border-bottom: solid 2px black;
 
 #Circle {
     border: solid 2px black;
-    border-radius: 180px;
-    box-shadow: -3px 3px 0px black;
+    border-radius: 360px;
+    box-shadow: -4px 3px 0px black;
 }
 
 .image-container {
@@ -58,8 +58,18 @@ border-bottom: solid 2px black;
     position: absolute;
     top: 0;
     left: 0;
+    animation: spin 3s linear infinite;
   }
 
   /* #birthday_name {
     align-self: center;
   } */
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+    
+
