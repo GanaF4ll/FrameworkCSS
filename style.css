@@ -13,7 +13,8 @@ body {
 }
 
 .big-container {
-  height: 90%;
+  max-height: 100%;
+  overflow-y: auto;
   /* autres styles */
 }
 .left-container {
