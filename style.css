@@ -1,0 +1,11 @@
+:root {
+    --main-pink: #ff99cc;
+}
+
+.left-container {
+    background-color: var(--main-pink);
+}
+
+.right-container {
+
+}
