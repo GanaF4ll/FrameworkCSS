@@ -9,6 +9,9 @@ body {
 }
 .left-container {
     background-color: var(--main-pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -33,3 +36,8 @@ body {
 
 }
 
+#Circle {
+    border: solid 2px black;
+    border-radius: 180px;
+    box-shadow: -3px 3px 0px black;
+}

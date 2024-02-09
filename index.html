@@ -21,7 +21,16 @@
     </header>
     <main>
       <div class="big-container d-flex">
-        <div class="left-container d-flex flex-column p2 w-50"></div>
+        <div class="left-container d-flex flex-column p2 w-50">
+          <div class="d-flex align-items-center" id="HB">
+            <img
+              id="Circle"
+              src="/assets/Ellipse.svg"
+              alt="Circle"
+              class="d-flex align-items-center w-75"
+            />
+          </div>
+        </div>
         <div class="right-container d-flex flex-column p2 w-50">
           <fieldset class="citation-box d-flex flex-column m-3 p-3">
             I've missed more than 9,000 shots in my career. I've lost almost 300
@@ -43,10 +52,14 @@
             aria-valuemin="0"
             aria-valuemax="100"
           >
-            <div
-              class="progress-bar progress-bar-striped"
-              style="width: 100%"
-            ></div>
+            <div class="progress-box d-inline-flex justify-content-center">
+              <div class="progress-number">0</div>
+              <div
+                class="progress-bar progress-bar-striped"
+                style="width: 100%"
+              ></div>
+              <div class="progress-number">100</div>
+            </div>
           </div>
         </div>
       </div>
