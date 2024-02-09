@@ -2,9 +2,25 @@
     --main-pink: #ff99cc;
 }
 
+body {
+    font-family: bison;
+    font-weight: bold;
+
+}
 .left-container {
     background-color: var(--main-pink);
 }
+
+
+  .citation-box {
+    border: solid 1px black;
+    box-shadow: -3px 3px 0px var(--main-pink);
+  }
+  .avatar-box {
+    border: solid 1px black;
+    box-shadow: -3px 3px 0px var(--main-pink);
+    display: inline-block;
+  }
 
 .right-container {
 
