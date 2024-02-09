@@ -13,15 +13,23 @@ body {
 
 
   .citation-box {
-    border: solid 1px black;
+    border: solid 2px black;
+    border-radius: 3px;
     box-shadow: -3px 3px 0px var(--main-pink);
   }
   .avatar-box {
-    border: solid 1px black;
+    border: solid 2px black;
+    border-radius: 3px;
     box-shadow: -3px 3px 0px var(--main-pink);
-    display: inline-block;
+
+  }
+
+  .progress-bar {
+    background-color: var(--main-pink);
+    box-shadow: -3px 3px 0px black;
   }
 
 .right-container {
 
 }
+
