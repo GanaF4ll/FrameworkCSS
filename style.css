@@ -84,6 +84,23 @@ border-bottom: solid 2px black;
     100% { transform: rotate(360deg); }
   }
   
+  @keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+  }
 
+
+#star1 {
+  
+  animation: bounce 1.5s infinite;
+}
+
+#star2 {
+  animation: bounce 1s infinite;
+}
+
+#star3 {
+  animation: bounce 0.5s infinite;
+}
     
 
