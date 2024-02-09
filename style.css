@@ -1,9 +1,12 @@
 :root {
     --main-color: #ff99cc;
 }
-
+@font-face {
+  font-family: bison-bold;
+  src: url(/assets/Bison-Bold\(PersonalUse\).ttf);
+}
 body {
-    font-family: bison;
+    font-family: bison-bold;
     font-weight: bold;
 
 }
